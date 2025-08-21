@@ -19,7 +19,7 @@ document
 			Section: form.Section.value,
 			Year: form.Year.value,
 			Phone: form.Phone.value,
-			Skills: selectedSkills, // ✅ now stores multiple skills
+			Skills: form.Skills.value,
 			Why_do_you_wanna_Join_yfs: form.Why_do_you_wanna_Join_yfs.value,
 		};
 
