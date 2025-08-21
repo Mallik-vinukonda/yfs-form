@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Youth For Seva Registration</title>
+		<link rel="icon" type="image/png" href="hero.png" />
+
+		<link rel="stylesheet" href="style.css" />
+		<script src="form.js" defer></script>
+	</head>
+	<body>
+		<div style="text-align: center; margin-bottom: 5px">
+			<img src="image (1).png" alt="Youth for Seva Logo" style="height: 80px" />
+		</div>
+
+		<section class="registration-form" id="register">
+			<div class="form-container">
+				<h2>Youth For Seva - Volunteer Registration</h2>
+				<form id="yfsRegistration">
+					<div class="form-group">
+						<label for="Name">Full Name</label>
+						<input
+							type="text"
+							id="Name"
+							name="Name"
+							placeholder="Enter your full name"
+							required
+						/>
+					</div>
+
+					<div class="form-group">
+						<label for="Roll">Roll Number</label>
+						<input
+							type="text"
+							id="Roll"
+							name="Roll"
+							placeholder="Enter your roll number"
+							required
+						/>
+					</div>
+
+					<div class="form-group">
+						<label for="Branch">Branch</label>
+						<input
+							type="text"
+							id="Branch"
+							name="Branch"
+							placeholder="Enter your branch"
+							required
+						/>
+					</div>
+
+					<div class="form-group">
+						<label for="Section">Section</label>
+						<input
+							type="text"
+							id="Section"
+							name="Section"
+							placeholder="Enter your section"
+							required
+						/>
+					</div>
+
+					<div class="form-group">
+						<label for="Year">Year</label>
+						<select id="Year" name="Year" required>
+							<option value="">Select Year</option>
+
+							<option value="2nd">2nd</option>
+							<option value="3rd">3rd</option>
+						</select>
+					</div>
+
+					<div class="form-group">
+						<label for="Phone">Phone Number</label>
+						<input
+							type="tel"
+							id="Phone"
+							name="Phone"
+							placeholder="Enter your phone number"
+							required
+						/>
+					</div>
+
+					<div class="form-group">
+						<label for="Skills">Skills</label>
+						<input
+							type="text"
+							id="Skills"
+							name="Skills"
+							placeholder="(e.g., Web Development, Poster Design, Teaching , content Writing)"
+							required
+						/>
+					</div>
+
+					<div class="form-group">
+						<label for="Why_do_you_wanna_Join_yfs"
+							>Why do you want to join YFS?</label
+						>
+						<textarea
+							id="Why_do_you_wanna_Join_yfs"
+							name="Why_do_you_wanna_Join_yfs"
+							rows="4"
+							placeholder="Write your motivation..."
+							required
+						></textarea>
+					</div>
+
+					<button type="submit" class="submit-btn">Submit</button>
+				</form>
+
+				<!-- Success/Error message -->
+				<p
+					id="responseMessage"
+					style="text-align: center; margin-top: 20px"
+				></p>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="footer-container">
+				<img
+					src="image (1).png"
+					alt="Youth For Seva Logo"
+					class="footer-logo"
+				/>
+				<p>
+					For Any Queries contact : <br />
+					📞 +91 7416366978 - Jay Mallik (President) , +91 89190 68180 - Triveni
+					Balla (Secretary)
+				</p>
+			</div>
+		</footer>
+	</body>
+</html>
